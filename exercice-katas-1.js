@@ -22,11 +22,11 @@ console.log(abc.length);
 
 let triangle = "#"; 
 
-console.log(triangle);
 
 for(let conditiontriangle = 0; conditiontriangle<8; conditiontriangle++){
     
-    triangle += "#";
     console.log(triangle)
+    triangle += "#";
+
  //   console.log(triangle.length); --> permet de savoir la longueur de la chaines de caractère
 };

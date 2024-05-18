@@ -9,11 +9,13 @@ console.log(min(0, -10));
 
 */
 
+function Resultat() {
 let firstnumber = +prompt("Entrer votre premier nombre",1);
 let secondnumber  = +prompt("Entrer votre second nombre",2);
 
 let resultat = (firstnumber > secondnumber) ? secondnumber : firstnumber;
+console.log(resultat)
+}
 
 
-
-console.log(resultat);
+Resultat()
